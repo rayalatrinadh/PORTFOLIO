@@ -7,6 +7,13 @@ body {
     margin-left: 40px;
   } 
 
+  h2 {
+    border-color: orange;
+    border-width: 5px;
+    border-style: inset;
+    text-align: center;
+    }
+
   p.groove {border-style: groove;}
   ul {
     list-style-type: none;
