@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <title>Trinadh Rayala</title>
+<head>
+<link rel="stylesheet" href="style_01.css">
+<style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+  
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+  </style>
+
+</head>
+<body>
+  <script>
+    function download_file() {
+      alert("download_file is calling.");
+    document.getElementById("my_download").click()
+  }
+  
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#socialProfile">socialProfile</a></li>
+        <li style="float:right"><a class="active" href="#resume">Resume</a></li>
+      </ul>
+
+  <h1 id = "about" >About</h1>    
+<p style="border-width:3px; border-style:solid; border-color:#FF0000; padding: 1em;">
+  As a Full Stack Java Developer with over 3 years of experience in Application Development, I have a strong background in designing, developing, and implementing projects in the areas of Java/J2EE and JavaScript frameworks, specifically Angular. I have expertise in both client-side and server-side enterprise application development.
+
+  In terms of programming languages, I am proficient in Java and C, allowing me to effectively develop robust and efficient applications. I am also well-versed in various database technologies, including MSSQL, Oracle DB, and PostgreSQL, enabling me to design and integrate databases into applications.
+  
+  On the front-end development side, I have experience with HTML, CSS, and Bootstrap, ensuring visually appealing and responsive user interfaces. I am skilled in JavaScript and Angular, allowing me to create dynamic and interactive web applications. Additionally, I have knowledge of JSP (JavaServer Pages) and Ajax for building dynamic web pages.
+  
+  In terms of technologies and frameworks, I have expertise in Spring MVC and Spring Boot, which are widely used in Java web application development. I am familiar with Maven for project management and dependency resolution. I have experience working with Linux as an operating system and using tools like Jasper Reports for generating reports. I also have knowledge of Apache Camel and Active MQ for implementing message-oriented middleware in enterprise applications. Furthermore, I am well-versed in J2EE and building RESTful services.
+  
+  In my development workflow, I utilize various developer tools and IDEs. I am proficient in Eclipse and IntelliJ IDEA for Java development, PgAdmin and DBeaver for database management, and Git and Bitbucket for version control. I have experience using JIRA for project management and issue tracking, as well as Jenkins for continuous integration and deployment.
+  
+  Overall, I bring a comprehensive set of technical skills and experience to the table as a Full Stack Java Developer, allowing me to contribute to the complete software development lifecycle and deliver high-quality, scalable, and efficient applications.
+
+</p>
+
+
+
+<h2 id = "experience">Experience</h2>
+   <h3>Capgemini Technologies</h3>
+   <p>Capgemini Technologies, Chennai, India
+    Associate Consultant, April 2021 – November 2022
+    
+    As an Associate Consultant at Capgemini Technologies, I played a crucial role in the development and implementation of various projects. I worked in an Agile environment, actively participating in Scrum meetings to ensure the delivery of high-quality deliverables within the specified timelines.
+    
+    One of my key responsibilities was developing the UI component architecture for a developer framework using Angular 4, TypeScript, HTML5, CSS3, and Bootstrap. I created custom, self-contained, reusable, and testable Angular 4 modules, controllers, directives, and services to implement essential functionalities for customer account summary.
+    
+    In order to enhance user experience and data validation, I utilized Angular 4 HTTP Services for asynchronous validations of input fields, leveraging existing data in the database. I also worked on setting up routing configurations using Angular 4 router to enable seamless navigation between various views and subviews.
+    
+    Working in both production and development teams, I actively participated in the design and development of dynamic web pages. I utilized HTML5, CSS3, Bootstrap, SASS, JavaScript, jQuery, and Angular 4 to create single-page applications with dynamic content. Additionally, I customized Bootstrap classes using CSS preprocessors like SASS.
+    
+    To ensure efficient data retrieval and communication with the server-side, I employed AJAX calls to consume RESTful web services. The retrieved data was then rendered on PrimeNG data tables. Furthermore, I developed Angular custom pipes, specifically using the ngFor directive, to sort transaction history for defined users.
+    
+    In the realm of microservices, I worked with a Spring Boot-based architecture. I leveraged RESTful APIs to build, test, and deploy microservices. I also gained experience with Hystrix, fault tolerance, and circuit breaker patterns to enhance system resilience.
+    
+    For debugging purposes, I implemented log4j support to track system activities and server-side logins. To streamline the development process, I utilized Maven for build automation and GIT for effective code management, adhering to Agile practices. I also gained hands-on experience with CI/CD environments using Jenkins and Maven.
+    
+    In summary, my role as an Associate Consultant at Capgemini Technologies involved active participation in Agile development, contributing to UI component architecture, implementing key functionalities, utilizing Angular 4, working with microservices, and employing various tools and frameworks for efficient development and delivery of high-quality software solutions.
+  </p>
+
+  <h3>Financial Software & Systems.</h3>
+  <p>
+    Financial Software & Systems (F.S.S), Chennai, India
+Software Engineer, August 2019 – April 2021
+
+As a Software Engineer at Financial Software & Systems (F.S.S), I played a vital role in the development and implementation of software solutions. Here is an overview of my responsibilities and contributions during my tenure:
+
+- Implemented the persistence layer using Hibernate, which facilitated interaction with the MySQL database. I leveraged Hibernate for object-relational mapping and persistence, ensuring efficient data storage and retrieval.
+
+- Utilized DOM parsing techniques to parse XML documents, and employed the XSLT API to handle XML parsing in an object-oriented manner. This allowed for effective manipulation and processing of XML data within the application.
+
+- Implemented various design patterns such as DAO (Data Access Object) and Front Controller, which enhanced the maintainability and scalability of the software architecture.
+
+- Developed RESTful web services using REST and JSON, as well as SOAP web services using JAX-WS. This involved designing and implementing APIs for seamless communication and integration with external systems.
+
+- Developed application service components and configured beans using the Spring IoC (Inversion of Control) container. Additionally, I contributed to the creation of Hibernate mapping files and generation of the database schema.
+
+- Designed and developed message-driven beans, which consumed messages from the Java message queue. This allowed for asynchronous processing and improved system responsiveness.
+
+- Implemented jQuery AJAX calls in JSP (JavaServer Pages) web pages to facilitate dynamic content rendering and seamless interaction with the server-side components.
+
+- Created unit tests using the jUnit framework, following a test-driven development approach. I also developed unit and integration test cases to ensure the robustness and quality of the software solution.
+
+- Worked with Maven, a build automation tool, to manage project dependencies and streamline the build process. This ensured consistent and reliable build configurations.
+
+- Collaborated closely with the requirements team, testing team, and database administrators to gather project requirements, validate functionality, and ensure seamless integration with the database.
+
+Overall, as a Software Engineer at Financial Software & Systems (F.S.S), I made significant contributions to the development of software solutions, leveraging technologies such as Hibernate, XML parsing, RESTful and SOAP web services, Spring IoC, jQuery, jUnit, and Maven. My collaborative approach and engagement with cross-functional teams ensured the successful delivery of high-quality software products.
+  </p>
+
+
+  <p id = "socialProfile">
+    <h2>GIT Profile</h2>
+    <a href="https://github.com/rayalatrinadh" 
+    target="_blank">git@TrinadhRayala</a>
+  </p>
+  <br>
+  <h2>LeetCode</h2>
+  <a href="https://leetcode.com/rayalaTrinadh/" 
+  target="_blank">LeetCode@TrinadhRayala</a>
+
+  <br>
+  <br>
+  <br>
+
+  <a id="my_download" href="D:\GIrResume\TrinadhRayala_JavaFullStackDeveloper.pdf" download="TrinadhRayala_JavaFullStackDeveloper.pdf" style="display:none;"></a>
+
+  <button onClick="download_file()">Download!!!</button>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+</body>
+</html>
