@@ -4831,6 +4831,27 @@ th {
   background-color: rgb(75, 64, 61, 0.3);
 }
 
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 0px;
+  }
+  
+  .image-div{
+    float:left;
+    margin-right:10px;
+    max-width: 20%;
+    max-height: 20%;
+  }
+
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
 /* Experience Table fade in animation */
 /* .experience-table {
   animation: fadeIn 5s;
